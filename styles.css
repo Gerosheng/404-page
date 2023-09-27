@@ -1,0 +1,45 @@
+body{
+    font-family:'Nunito', Helvetica, sans-serif;
+    color: #b656f6;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(assets/images/pngtree-bubble-soap-colorful-halo-background-image_735336.jpg);
+    background-size:cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.error-container{
+    background-color: salmon;
+    padding: 50px;
+    border-radius: 10px 60px 10px 60px;
+}
+
+h1{
+    font-size: 100px;
+    text-shadow: 5px 5px 1px #E0B0FF;
+
+}
+
+p{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+#home_button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: #E0B0FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+#home_button:hover{
+    background-color: aquamarine;
+}
